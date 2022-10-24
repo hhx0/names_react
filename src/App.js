@@ -137,11 +137,11 @@ useEffect(()=>{
     </div>
   
     </div>
-      <div className="ml-5">
+      <div className="ml-8">
       <p>Fillon me shkronjën:</p>
       {buttons.map((btn,index)=>{
         return(
-          <button onClick={letterClickHandler} id={btn} type="button" className="inline-block py-2.5 m-1 bg-indigo-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg w-14 focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out" key={index} value={btn} >{btn}</button>
+          <button onClick={letterClickHandler} id={btn} type="button" className="inline-block py-2.5 m-1 bg-indigo-900 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-amber-500 hover:shadow-lg focus:bg-amber-500 focus:shadow-lg w-8 focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" key={index} value={btn} >{btn}</button>
         )
       })}
       </div>
