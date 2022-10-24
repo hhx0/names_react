@@ -93,9 +93,13 @@ useEffect(()=>{
 
   <div className="flex justify-center mt-5">
     <div className="block p-6 rounded-lg shadow-lg bg-white w-[720px]">
-
-    
+    <div className="lg:hidden sm:block grid place-items-center">
+      <a href="." onClick={handleLogoClick}><img alt="logo" className="object-contain h-16 cursor-pointer" src="images/emra_logo.png" /></a>
+    </div>
     <div className="mb-3 ml-5 grid  grid-flow-col">
+    <div className="sm:hidden lg:block">
+      <a href="." onClick={handleLogoClick}><img alt="logo" className="object-contain h-16 cursor-pointer" src="images/emra_logo.png" /></a>
+    </div>
     <div>
     <label htmlFor="genders" className="text-black">Gjinia:</label>
     <div className="flex">
@@ -131,11 +135,9 @@ useEffect(()=>{
     </select>
     </div>
     </div>
-    <div>
-      <a href="." onClick={handleLogoClick}><img alt="logo" className="object-contain h-16 cursor-pointer" src="images/emra_logo.png" /></a>
+  
     </div>
-    </div>
-      <div className="ml-4">
+      <div className="ml-5">
       <p>Fillon me shkronjën:</p>
       {buttons.map((btn,index)=>{
         return(
@@ -153,7 +155,7 @@ useEffect(()=>{
     <div className="overflow-x-auto relative shadow-md">
     <p className="resultsInfo"><strong>{filteredData.length}</strong> emra plotësojnë kushtet e parashtruara për kërkim:</p>
     <table className="w-full text-sm text-left">
-        <thead className="text-xs text-black uppercase bg-orange-200">
+        <thead className="text-xs text-white uppercase bg-violet-700">
             <tr>
                 <th scope="col" className="py-3 px-6 text-base">
                     EMRI
@@ -170,8 +172,8 @@ useEffect(()=>{
 
          { filteredData && filteredData.length>0 && filteredData.map((item,i)=>
 
-            <tr key={i} className="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-orange-100 odd:bg-orange-50">
-                <td className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white text-lg">
+            <tr key={i} className="border-b dark:bg-gray-800 dark:border-gray-700 even:bg-violet-300 odd:bg-violet-200">
+                <td className="py-4 px-6 font-medium text-white-900 whitespace-nowrap  text-lg">
                     {item.name}
                 </td>
                 <td className="py-4 px-6 text-gray-900">
