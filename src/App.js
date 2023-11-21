@@ -154,8 +154,8 @@ useEffect(()=>{
     <div className="block p-6 rounded-lg shadow-lg bg-white w-[720px]">
         
     <div className="overflow-x-auto relative shadow-md">
-    <a href="https://ko-fi.com/K3K0RDS3L" target="_blank"><img height="36" style="border:0px;height:36px;position:inline-block;float:left;margin-bottom:10px;margin-right:6px;" src="https://storage.ko-fi.com/cdn/kofi1.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
-    <p className="resultsInfo" style="margin-bottom:6px;"><strong>82</strong> emra plotësojnë kushtet e parashtruara për kërkim:</p>    
+    <a href="https://ko-fi.com/K3K0RDS3L" target="_blank"><img height="36" className="kofi-image" src="https://storage.ko-fi.com/cdn/kofi1.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
+    <p className="resultsInfo"><strong>82</strong> emra plotësojnë kushtet e parashtruara për kërkim:</p>    
     <table className="w-full text-sm text-left">
         <thead className="text-xs text-white uppercase bg-violet-700">
             <tr>
