@@ -154,8 +154,8 @@ useEffect(()=>{
     <div className="block p-6 rounded-lg shadow-lg bg-white w-[720px]">
         
     <div className="overflow-x-auto relative shadow-md">
-    <a href="https://ko-fi.com/K3K0RDS3L" target="_blank"><img height="36" className="kofi-image" src="https://storage.ko-fi.com/cdn/kofi1.png?v=3" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>
     <p className="resultsInfo"><strong>82</strong> emra plotësojnë kushtet e parashtruara për kërkim:</p>    
+    <div class="bmc-btn-container"><a class="bmc-btn" target="_blank" href="https://buymeacoffee.com/emra.info">☕<span class="bmc-btn-text">Buy me a coffee</span></a></div>
     <table className="w-full text-sm text-left">
         <thead className="text-xs text-white uppercase bg-violet-700">
             <tr>
