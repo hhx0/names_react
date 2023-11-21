@@ -49,11 +49,32 @@
 }
 
 .bmc-btn {
-  min-width: 210px;
+  min-width: 180px;
   color: #000000;
   background-color: #FFDD00 !important;
   height: 40px;
-  border-radius: 8px;
+  width:220px;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: Bold;
+  border: none;
+  padding: 0px 24px;
+  line-height: 27px;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center;
+  font-family: 'Lato', cursive !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
+
+.bmc-btn-r {
+  min-width: 180px;
+  color: #000000;
+  background-color: #FFDD00 !important;
+  height: 40px;
+  width:220px;
+  border-radius: 6px;
   font-size: 18px;
   font-weight: Bold;
   border: none;
@@ -67,6 +88,7 @@
   box-sizing: border-box !important;
   float:right;
   margin-bottom:8px;
+  margin-right:10px;
 }
 
 @keyframes App-logo-spin {

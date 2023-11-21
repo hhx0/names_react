@@ -154,8 +154,12 @@ useEffect(()=>{
     <div className="block p-6 rounded-lg shadow-lg bg-white w-[720px]">
         
     <div className="overflow-x-auto relative shadow-md">
+
+    <div className="lg:hidden sm:block bmc-btn-container"><a className="bmc-btn" target="_blank" href="https://buymeacoffee.com/emra.info">☕<span className="bmc-btn-text">Buy me a coffee</span></a></div>
+
     <p className="resultsInfo"><strong>82</strong> emra plotësojnë kushtet e parashtruara për kërkim:</p>    
-    <div class="bmc-btn-container"><a class="bmc-btn" target="_blank" href="https://buymeacoffee.com/emra.info">☕<span class="bmc-btn-text">Buy me a coffee</span></a></div>
+    <div className="hidden lg:block bmc-btn-container"><a className="bmc-btn-r" target="_blank" href="https://buymeacoffee.com/emra.info">☕<span className="bmc-btn-text">Buy me a coffee</span></a></div>
+
     <table className="w-full text-sm text-left">
         <thead className="text-xs text-white uppercase bg-violet-700">
             <tr>
